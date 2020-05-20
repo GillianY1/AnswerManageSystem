@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*--- color --*/
+/*想找mateirla design 建議的色彩配色命名方式但找不到*/
+/*--some width--*/
+/*copy some cases here */
+.btnTest {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btnTest {
+  padding: 6px 12px;
+  background: #AA0601;
+}
+
+.btnTest:hover {
+  background: #910501;
+}
+
+.btnTest:active {
+  background: #770401;
+}
+
+/*--- color --*/
+/*想找mateirla design 建議的色彩配色命名方式但找不到*/
+/*--some width--*/
+/*copy some cases here */
+.btnTest {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btnTest {
+  padding: 6px 12px;
+  background: #AA0601;
+}
+
+.btnTest:hover {
+  background: #910501;
+}
+
+.btnTest:active {
+  background: #770401;
+}
+
+/*---- header -----*/
+/*---- footer ----*/
+/*for RWD layout cut */
+.flex-row-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-row-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-center {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*the father shall be position: relative; */
+/*the father shall be position: relative; */
+/*the father shall be position: relative; */
+/*copy for ex */
+/* =============just practice================ */
+/* 清除浮動使用, @include clearfix ; */
+/*use ... @include circle(30px, #ffff) */
+.white-spot {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.font_36 {
+  font-size: 2.25rem;
+}
+
+.font_64 {
+  font-size: 4rem;
+}
+
+/* ---basic----
+including basic setting
+header
+footer
+*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  /*or 1.45 */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 976px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 765px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,28 @@
+/* ---basic----
+including basic setting
+header
+footer
+*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5rem;
+  }
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2; /*or 1.45 */
+    font-weight: bold;
+}
+
+h2{
+    font-size: $font_48;
+    @include pad(){
+        font-size: $font_32;
+    }
+    @include phone(){
+        font-size: $font_24;
+    }
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
