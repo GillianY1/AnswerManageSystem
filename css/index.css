@@ -10906,13 +10906,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-/*basic*/
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.2;
-  /*or 1.45 */
-  font-weight: bold;
-}
-
 /*---- left sidbar -----*/
 .sidebar {
   position: fixed;
@@ -10932,6 +10925,7 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   display: block;
   height: 100%;
+  max-width: 100%;
   background-color: #e83e8c;
   margin-left: 296px;
 }
@@ -21790,21 +21784,22 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /*? 問那要怎麼處理css RESET */
-ul {
-  list-style-type: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
-/*font */
+/*font1 */
 .font_lato {
   font-family: 'Lato', sans-serif;
 }
 
 .font_roboto {
   font-family: 'Roboto Mono', monospace;
+}
+
+/*main content*/
+.inner_content_left {
+  max-width: 320px;
 }
 /*# sourceMappingURL=index.css.map */

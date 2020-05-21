@@ -14,19 +14,22 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 /*? 問那要怎麼處理css RESET */
-ul {
-    list-style-type: none;
-}
 
 img {
     max-width: 100%;
     height: auto;
 }
-/*font */
+/*font1 */
 .font_lato{
     font-family: 'Lato', sans-serif;
 }
 
 .font_roboto{
     font-family: 'Roboto Mono', monospace;
+}
+
+
+/*main content*/
+.inner_content_left{
+    max-width:320px;
 }

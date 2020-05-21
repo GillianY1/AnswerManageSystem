@@ -8,17 +8,7 @@
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
 $sidebar_width: 296px; 
-
-/*basic*/
-h1,h2,h3,h4,h5,h6{
-    line-height: 1.2; /*or 1.45 */
-    font-weight: bold;
-}
-
-
-
 /*---- left sidbar -----*/
 
 .sidebar{
@@ -39,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 .content{
     display: block;
     height: 100%;
+    max-width: 100%; 
     background-color: $pink;
     margin-left: $sidebar_width;
 }

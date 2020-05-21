@@ -14,7 +14,8 @@
 <body>
     <div class="contentWrap d-flex align-items-stretch">
         <aside class="sidebar ">
-            <nav><ul>
+            <nav><ul class="list-unstyled">
+                
                 <li><a href=""><i class="material-icons">insert_chart</i>Dashboard</a></li>
                 <li><a href=""><i class="material-icons">forum</i>Question</a></li>
                 <li><a href=""><i class="material-icons">assignment</i>Assignment</a></li>
@@ -24,18 +25,43 @@
             </ul></nav>
 
         </aside>
-        <main class="content">
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit veritatis, repellendus in praesentium quia natus reiciendis. Magnam vel ab quia totam, adipisci voluptatum dolor animi magni aperiam quas. Quibusdam, provident?</p>
+        <main class="content  d-flex flex-column ">
+            <div class="content_header">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="inner_content d-flex">
+                <div class="inner_content_left">
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit veritatis, repellendus in praesentium quia natus reiciendis. Magnam vel ab quia totam, adipisci voluptatum dolor animi magni aperiam quas. Quibusdam, provident?</p>
+
+                    <ul class="list-group">
+                        <li class="list-group-item active">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+                <div class="inner_content_right">
+                </div>
+            </div>
         </main>
     </div>
 
     
-
-    <!-- jquery , popper , bootstrap JS   for simple bootstrap>
-    < script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    < script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    < script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script-->
+    <!-- jquery popper bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/all.js"></script>
 </body>
 </html>                                                                                                                                                 
