@@ -5,8 +5,11 @@
 @import "../utility";
 @import "../base";
 
-/**/
-@import "../variables"; /*overlap the variable of BS, need to before import bootstrap */
+
+/*using bs , with these 3 import scss*/
+@import "functions"; 
+@import "../helpers/variables";
+@import "bootstrap";
 
 
 
