@@ -1,6 +1,36 @@
 @import "variable";
 @import "grid";
 
-/*---- header -----*/
+/*bS*/
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables"; // 複製一份 variable 來覆蓋
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+$sidebar_width: 296px; 
+/*---- left sidbar -----*/
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar_width;
+    /*height: */
+    background-color: $lightgreen;
+}
+
+.content{
+    display: block;
+    background-color: $pink;
+    margin-left: $sidebar_width;
+}
+
+/*? 問那要怎麼處理css RESET */
+/* 網頁長度問題*/
+ul {
+    list-style-type: none;
+}
+
 
 /*---- footer ----*/

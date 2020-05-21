@@ -1,12 +1,11 @@
 /*@import "../reset";   bootstrap itself include some normalize reset setting */
 /*
 @import "../variable";
-@import "../layout";
 @import "../grid"; 
 @import "../utility";
 @import "../base";
 */
-
+@import "../layout";
 
 /*using bs , with these 3 import scss*/
 @import "../../node_modules/bootstrap/scss/functions";
@@ -14,9 +13,20 @@
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
+/*? 問那要怎麼處理css RESET */
+ul {
+    list-style-type: none;
+}
 
 img {
     max-width: 100%;
     height: auto;
+}
+/*font */
+.font_lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.font_roboto{
+    font-family: 'Roboto Mono', monospace;
 }
