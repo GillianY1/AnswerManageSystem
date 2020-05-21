@@ -9,9 +9,10 @@
 
 
 /*using bs , with these 3 import scss*/
-@import "functions"; 
-@import "../helpers/variables";
-@import "bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../helpers/variables"; // 複製一份 variable 來覆蓋
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 
 
