@@ -28,6 +28,42 @@
   background: #770401;
 }
 
+/* ---basic----
+including basic setting
+header
+footer
+*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  /*or 1.45 */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 976px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 765px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
 /*bS*/
 /*added*/
 /* $blue !default;*/
@@ -10870,18 +10906,32 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+/*basic*/
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  /*or 1.45 */
+  font-weight: bold;
+}
+
 /*---- left sidbar -----*/
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
   width: 296px;
-  /*height: */
+  height: 100%;
   background-color: #EDF4EE;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.sidebar a {
+  text-decoration: none;
 }
 
 .content {
   display: block;
+  height: 100%;
   background-color: #e83e8c;
   margin-left: 296px;
 }

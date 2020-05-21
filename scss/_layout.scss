@@ -1,5 +1,6 @@
 @import "variable";
 @import "grid";
+@import "base";
 
 /*bS*/
 @import "../node_modules/bootstrap/scss/functions";
@@ -9,6 +10,15 @@
 
 
 $sidebar_width: 296px; 
+
+/*basic*/
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2; /*or 1.45 */
+    font-weight: bold;
+}
+
+
+
 /*---- left sidbar -----*/
 
 .sidebar{
@@ -16,12 +26,19 @@ $sidebar_width: 296px;
     top: 0;
     left: 0;
     width: $sidebar_width;
-    /*height: */
+    height: 100%;
     background-color: $lightgreen;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    a{
+        text-decoration: none;
+    }
+
 }
 
 .content{
     display: block;
+    height: 100%;
     background-color: $pink;
     margin-left: $sidebar_width;
 }
